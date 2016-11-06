@@ -80,6 +80,8 @@ $(document).ready(function() {
 
   function drawConsumptionBar() {
 
+    return;
+
     d3.tsv("data/household-consumption.tsv", function(error, data) {
       consData = data;
       y.domain([0, d3.max(data, function(d) {
@@ -116,6 +118,8 @@ $(document).ready(function() {
   }
 
   function animateConsBar() {
+    return;
+
     bar = svgContainer.selectAll("g")
     bar.selectAll("rect")
       .attr("y", height)
