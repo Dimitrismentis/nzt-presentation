@@ -67,9 +67,9 @@ body {
   line-height: 400px;
 }
 .access-minigrid {
-  background-image: radial-gradient(transparent, #000), url("../img/minigrid.jpg");
-  height: 150px;
-  line-height: 150px;
+  background-image: radial-gradient(transparent, #000), url("../img/Minigridnew.jpg");
+  height: 332px;
+  line-height: 400px;
 }
 .access-standalone {
   background-image: radial-gradient(transparent, #000), url("../img/standalone.jpg");
