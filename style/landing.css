@@ -72,9 +72,9 @@ body {
   line-height: 300px;
 }
 .access-standalone {
-  background-image: radial-gradient(transparent, #000), url("../img/standalonenew.jpg");
-  height: 423px;
-  line-height: 400px;
+  background-image: radial-gradient(transparent, #000), url("../img/standalone.jpg");
+  height: 200px;
+  line-height: 200px;
 }
 .tech-text {
   text-align: center;
