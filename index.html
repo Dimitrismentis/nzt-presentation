@@ -370,16 +370,17 @@
           <div class="row">
             <div class="col-md-4">
               <p class="access-text">
-                The visualization allows the selection of countries from ad dropdown menu or by clicking on the chosen country in a map. Once in a country page, the visualization displays buttons to select one of the two diesel prices and one of the electricity consumption
-                levels or tiers. It shows a map of the selected country with the mesh of 10-by-10 kilometres localities. A bar chart and a doughnut graph.
+                The tool allows the selection of the three studied countries. Once in a country page, a brief overview 
+                of the country’s status in terms of demographics, economy and electricity access is provided.
               </p>
               <p class="access-text">
-                Each country map shows the following:
+                Latest available data and projected figures for the end year of the model (2030)
+                based on a country’s action plans are provided.  These data include :
                 <ul>
-                  <li>Existing and planned electricity lines (reference year is 2012)</li>
-                  <li>The mesh of ten-by-ten kilometres areas coloured according to the type of technology</li>
-                  <li>The opacity of each of the ten-by-ten localities represents the number of people estimated to live in 2030 in that locality, the darker the colour the more people live in the area</li>
-                  <li>An opacity bar indicating the number of people corresponding to the opacity of the mesh.</li>
+                  <li>Population (national, urbal, rural)</li>
+                  <li>Gross Domestic Product at Purchasing Power Parity (GDP PPP)</li>
+                  <li>Access to electricity (national, and urban/rural when given)</li>
+                  <li>Current electricity generation and projected electricity demand.</li>
                 </ul>
               </p>
             </div>
@@ -401,16 +402,20 @@
           <div class="row">
             <div class="col-md-4">
               <p class="access-text">
-                The visualization allows the selection of countries from ad dropdown menu or by clicking on the chosen country in a map. Once in a country page, the visualization displays buttons to select one of the two diesel prices and one of the electricity consumption
-                levels or tiers. It shows a map of the selected country with the mesh of 10-by-10 kilometres localities. A bar chart and a doughnut graph.
+                The visualization displays buttons to select one of the two diesel prices and one of the electricity consumption levels
+                or tiers. It shows a map of the selected country. On the bottom of the page, a summary of the model results is presented.
+                This includes - for the selected scenario - the share of each electrification technology for new connections, investment 
+                needs, area and added capacity.
               </p>
               <p class="access-text">
-                Each country map shows the following:
+                You can further select a state and a district and select among several datasets to be visualized. The default dataset 
+                is the least cost electrification technology. Datasets are grouped in 4 categories: 
                 <ul>
-                  <li>Existing and planned electricity lines (reference year is 2012)</li>
-                  <li>The mesh of ten-by-ten kilometres areas coloured according to the type of technology</li>
-                  <li>The opacity of each of the ten-by-ten localities represents the number of people estimated to live in 2030 in that locality, the darker the colour the more people live in the area</li>
-                  <li>An opacity bar indicating the number of people corresponding to the opacity of the mesh.</li>
+                  <li>Technology (Least Cost Technology, Levelized cost of generating electricity, Investment cost, Added capacity)</li>
+                  <li>Demographics (Population density, Urban/Rural, Poverty rate )</li>
+                  <li>Resources (Solar irradiance, Wind power capacity factor, Hydropower potential)</li>
+                  <li>Infrastructure (Distance to Road and Transmission Grid Network, Cost of generating electricity using 
+                    diesel gensets)</li>
                 </ul>
               </p>
             </div>
@@ -431,11 +436,11 @@
           </div>
           <div class="row">
             <div class="col-md-4">
-              <p class="access-text">The bar chart displays, for a given price of diesel, the number of people to receive electricity by each of the three types of technologies, e.g. Grid, Mini-Grid and Staalone. The sum of the number of people in the three bars is the population
-                that must receive electricity between 2012 and 2030 if universal access is to be achieved. This number does not change, of course, from one scenario to another nor with changes in the number of people to be served by each technology.
+              <p class="access-text">Once in a district (or local government area), you can click to select a specific location.
+                A summary of the results for the selected location is provided on the top right hand side of the page. On the bottom
+                of the page, results are summarized for the considered district.
               </p>
-              <p class="access-text">
-                The doughnut plot shows the distributions by technology of the total investment cost needed to achieve by universal access. The total investment cost is displayed next to the graph, and it does normally change with scenario and combination of technologies.
+              <p class="access-text">              
               </p>
               <p class="access-text">
                 See the code of the model, data, and other supplementary material in this <a href="https://github.com/UN-DESA-Modelling/Electrification_Paths">link</a>.
