@@ -63,8 +63,8 @@ body {
 }
 .access-grid {
   background-image: radial-gradient(transparent, #000), url("../img/gridnew.png");
-  height: 332px;
-  line-height: 400px;
+  height: 250px;
+  line-height: 250px;
 }
 .access-minigrid {
   background-image: radial-gradient(transparent, #000), url("../img/Minigridnew.jpg");
