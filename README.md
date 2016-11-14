@@ -1,4 +1,4 @@
-# electrification-paths-presentation
+# ELECTRIFICATION PATHWAYS FOR NIGERIA, TANZANIA AND ZAMBIA
 
 This repository is part of the [ELECTRIFICATION PATHWAYS FOR NIGERIA, TANZANIA AND ZAMBIA]().
 
