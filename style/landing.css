@@ -3,7 +3,7 @@ body {
   font-family: "Roboto", Helvetica, Arial, Verdana, sans-serif;
 }
 #section0 {
-  background: radial-gradient(transparent, #000), url("../img/earth_lights.jpg") no-repeat center center fixed;
+  background: radial-gradient(transparent, #000), url("../img/earth_lights_lrg.jpg") no-repeat center center fixed;
   background-size: cover;
   background-attachment: fixed;
 }
