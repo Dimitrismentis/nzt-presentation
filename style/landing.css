@@ -248,15 +248,16 @@ a.dashboard-button:hover, a.guide-button:hover {
   vertical-align: middle;
 }
 .main-image {
-  vertical-align: middle;
+  vertical-align: top;
   width: 100%;
+  height: 100%;
 }
 .overlay {
   position: absolute;
-  padding-top: 0;
-  margin-top: 0;
-  bottom: 0;
+  top: 0;
   right: 0;
+  width: 100%;
+  height: 100%;
 }
 
 /* SMARTPHONES */
