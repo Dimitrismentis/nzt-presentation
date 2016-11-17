@@ -39,6 +39,7 @@ $(document).ready(function() {
           $('#topArrow').css("display", "");
           $('#arrowDown').css("display", "");
           $('#scrollText').css('display', 'none');
+          $('#sourcecode').css('display', 'none');
           $('#landingButton').css('display', 'none');
 
           $('.access-image').addClass('animated fadeIn');
