@@ -141,6 +141,9 @@ body {
 #scrollText {
   display: table-cell;
 }
+#sourcecode {
+  display: table-cell;
+}
 #landingButton {
   display: table-cell;
   opacity: 1.0 !important;
