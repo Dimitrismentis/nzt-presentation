@@ -155,7 +155,8 @@ body {
 }
 #staticButton {
   position: fixed;
-  left: 4%;
+  margin:auto;
+  width: 100%;
   z-index: 9;
   text-align: center;
   bottom: 4%;
